@@ -15,6 +15,12 @@ import * as Utils from "./utilities.js";
 // game, since you can easily add new properties and functions.
 export default class GoblinInstance extends globalThis.InstanceType.Goblin
 {
+	// TypeScript note: TypeScript requires class properties to be
+	// declared with their type outside the constructor like this,
+	// so it knows ahead of time what class properties are available.
+	health: number;
+	speed: number;
+
 	constructor()
 	{
 		super();
@@ -28,7 +34,7 @@ export default class GoblinInstance extends globalThis.InstanceType.Goblin
 	
 	// This is called every 3 seconds to create a new goblin just
 	// outside the right edge of the layout.
-	static Create(runtime)
+	static Create(runtime: IRuntime)
 	{
 		runtime.objects.Goblin.createInstance("Main",
 								1500, runtime.random() * 1024);
@@ -83,7 +89,7 @@ export default class GoblinInstance extends globalThis.InstanceType.Goblin
 				// that won't affect the global.
 				Globals.playerInstance = null;
 
-				Globals.gameOverTextInstance.isVisible = true;
+				Globals.gameOverTextInstance!.isVisible = true;
 			}
 		}
 	}
