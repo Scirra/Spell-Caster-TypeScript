@@ -3,7 +3,7 @@ This is the [Spell Caster Code](https://editor.construct.net/#open=spell-caster-
 
 [This commit](https://github.com/Scirra/Spell-Caster-TypeScript/commit/a3262df21b5487fd6bf6ed1e6bee628f4edd3936) shows how to update JavaScript code to be compatible with TypeScript. It may be a useful reference for the kinds of changes that need to be made to update other existing JavaScript-based projects to TypeScript.
 
-To learn more about using TypeScript in Construct, see the guide [Using TypeScript in Construct](https://www.construct.net/en/tutorials/using-typescript-construct-3003).
+To learn more about using TypeScript in Construct, see the guide [Using TypeScript in Construct]([https://www.construct.net/en/tutorials/using-typescript-construct-3003](https://www.construct.net/en/make-games/manuals/construct-3/scripting/guides/using-typescript)).
 
 ## Get the files
 To get the files, click the green *Code* button and choose *Download ZIP*. Extract the ZIP contents to a folder on your system. Then use Construct's *Open local project folder* option and select the folder where the project files are.
