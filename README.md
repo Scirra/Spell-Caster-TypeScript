@@ -1,3 +1,7 @@
+# This repository is now archived
+
+Construct used to require using an external editor for TypeScript coding, and that meant TypeScript examples like this had to be used externally too. Therefore this example was provided on GitHub instead of inside the editor as one of the built-in examples. However in 2025 [Construct added built-in support for TypeScript](https://www.construct.net/en/blogs/construct-official-blog-1/construct-built-in-support-1894), which meant this example could now be provided inside the editor as a built-in example. [Click here to open the Spell Caster TypeScript example inside Construct](https://editor.construct.net/#open=spell-caster-code-ts). This makes this repository redundant, and so it has been archived. The existing code and readme are provided for archival reasons only, but note that any future updates will be made only to the built-in example, so the code here may eventually go out of date.
+
 # Spell Caster TypeScript
 This is the [Spell Caster Code](https://editor.construct.net/#open=spell-caster-code) Construct example, which is originally written in JavaScript, but ported to [TypeScript](https://www.typescriptlang.org/). It serves to demonstrate how TypeScript can be used for writing code in Construct.
 
